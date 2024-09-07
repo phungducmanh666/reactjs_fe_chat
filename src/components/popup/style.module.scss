@@ -1,0 +1,44 @@
+.popup {
+  position: relative;
+  background-color: red;
+  display: inline-block;
+
+  .childs {
+    top: 110%;
+    position: absolute;
+    box-shadow: 1px 1px 10px black;
+
+    &.left {
+      left: 0;
+    }
+
+    &.right {
+      right: 0;
+    }
+
+    &.center {
+      left: 0;
+      transform: translateX(50%);
+    }
+
+    .arrow {
+    }
+
+    &.hide {
+      display: none;
+    }
+    &.show {
+      display: block;
+    }
+  }
+
+  &.light {
+    background-color: white;
+    color: black;
+  }
+
+  &.dark {
+    background-color: black;
+    color: white;
+  }
+}

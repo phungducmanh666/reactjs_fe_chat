@@ -1,0 +1,12 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  .page-side {
+  }
+  .page-content-wrapper {
+    padding: 10px;
+    flex: 1;
+  }
+}

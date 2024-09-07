@@ -1,0 +1,7 @@
+@import "/src/styles/common";
+
+.side-wrapper {
+  width: 300px;
+  min-height: calc(100vh - 100px);
+  background-color: $secondary-color;
+}

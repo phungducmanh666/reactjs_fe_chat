@@ -1,0 +1,33 @@
+@import "/src/styles/common";
+
+.btn {
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-color;
+  color: white;
+  cursor: pointer;
+
+  &.primary {
+    background-color: $primary-color;
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+  }
+
+  &.danger {
+    background-color: $danger-color;
+  }
+
+  // &.light {
+  //   background-color: white;
+  //   color: black;
+  // }
+
+  // &.dark {
+  //   background-color: black;
+  //   color: white;
+  // }
+}

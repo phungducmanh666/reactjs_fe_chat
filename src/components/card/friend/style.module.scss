@@ -1,0 +1,21 @@
+@import "/src/styles/common";
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 5px $secondary-color;
+  padding: 10px;
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .card-name {
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}

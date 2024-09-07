@@ -1,0 +1,42 @@
+@import "/src/styles/common";
+
+.message-container {
+  width: 100%;
+  padding: 10px;
+  .message {
+    .message-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      &.left {
+        align-items: flex-start;
+        .message-content {
+          background-color: $secondary-color;
+          color: $text-dark;
+        }
+      }
+
+      &.right {
+        align-items: flex-end;
+        .message-content {
+          background-color: $primary-color;
+          color: $text-light;
+        }
+      }
+
+      .message-content {
+        padding: 10px;
+        max-width: 70%;
+      }
+
+      .message-from {
+        font-weight: 600;
+      }
+
+      .message-time {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
